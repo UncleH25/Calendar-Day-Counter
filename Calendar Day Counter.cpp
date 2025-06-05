@@ -51,6 +51,13 @@ int main()
 				break;
 		}
 
+		//Output the result
+		cout << "The month " << month << " of the year " << year << " has " << daysInMonth << " days." << endl;
+
+		//Prompt the user to continue or exit
+		cout << "Do you want to check another month? (y/n): ";
+		cin >> again;
+
 	} while (again == 'y' || again == 'Y');
 
     return 0;
