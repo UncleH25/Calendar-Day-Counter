@@ -9,5 +9,11 @@ int main()
 	int month, year;
 	char again;
 
+	//Do-while loop to repeat the program while again is 'y' or 'Y'
+	do
+	{
+
+	} while (again == 'y' || again == 'Y');
+
     return 0;
 }
